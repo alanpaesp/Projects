@@ -12,12 +12,32 @@
 body {
     background-image: url('..');
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
+
+#icon {
+    position:absolute;
+    top: 500%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: url('./img/see_open');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+
 textarea:focus, input:focus {
     outline: none;
 }
 
-a{
+{
     font-size: .8rem
 }
 a.hover {
@@ -48,6 +68,11 @@ a.hover {
     height: 30px;
     cursor: pointer;
 }
+#icon.hide{
+    background: url();
+    background-size: cover;
+}
+
 
 /* formulario */
 
